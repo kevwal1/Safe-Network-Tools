@@ -1,5 +1,6 @@
+#
 # Tool for creating DNS traffic to test Safe Networking
-
+__author__: Kevin Walsh
 
 import socket
 
@@ -30,4 +31,4 @@ print ('Finished!')
 print ('Total Domains tried:', counter)
 print('Domains resolved:', good_domains)
 print ('Blocked domains:', bad_domains)
-print ('Done!')
+
